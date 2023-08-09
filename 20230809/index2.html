@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul>
+      <li>사가</li>
+      <li>사가</li>
+      <li>사가</li>
+    </ul>
+    <ol type="I" start="5">
+      <!--A, a, I, i-->
+      <li>사가</li>
+      <li>사가</li>
+      <li>사가</li>
+    </ol>
+    <dl>
+      <dt>회사소개</dt>
+      <dd>인삿말</dd>
+      <dd>찾아오시는길</dd>
+      <dd>연락처</dd>
+      <dt>서비스소개</dt>
+      <dd>제품1</dd>
+      <dd>제품2</dd>
+      <dd>제품3</dd>
+    </dl>
+    <table border="3">
+      <caption>
+        테이블제목
+      </caption>
+      <colgroup>
+        <col span="2"><!--col 두개 쓴것과 같음-->
+        <col style="width: 200px;">
+        <col style="background-color: darkgrey"></col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>제조사</th>
+          <th>기종</th>
+          <th>가격</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td rowspan="2">애플</td>
+          <td>아이폰</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>아이폰</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>삼성</td>
+          <td>아이폰</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>엘지</td>
+          <td colspan="2">판매안함</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
